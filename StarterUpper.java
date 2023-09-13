@@ -46,7 +46,7 @@ public class StarterUpper extends Application {
      */
     private HBox setAudio() {
         try {
-            Media music = new Media(new File("BARBIEDREAM.mp3").toURI().toString());
+            Media music = new Media(new File("bgMusic.mp3").toURI().toString());
             musicPlayer = new MediaPlayer(music);
 
             Button pressPlay = new Button("▶");
